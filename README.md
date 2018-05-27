@@ -1,13 +1,13 @@
 # Dungeon Generator Plugin for Unity
 Plugin for Unity3d to procedurally generate dungeons with three methods:
-* let the plugin generate meshes;
-* provide to the plugin the assets to be used to dinamically compose the dungeon;
-*  mixing provided assets and mesh generation.
+* full meshes generation, or
+* providing assets to dinamically compose the dungeon, or
+* mixing provided assets and mesh generation.
 
 # How it works
 The procedural generation algorithm is based on `Cellular Automata` model, mixed with concept of `Room and Corridor`. By this, it is possible to benefict of the dynamicity of cellular automata (in terms of shape variations) but having full control over rooms and corridors generated (something that is not really feasible using only cellular automata model). 
 
-The algorithm implemented can be customized througth Unity Inspector with a good set of input parameters, and can handle different kind of "rendering” such castle like, cave like or desert/forest like, by tuning input parameters and applying proper graphical assets. Generation is seed based in order to reproduce the same dungeon if same input parameters are used.
+The algorithm implemented can be customized through Unity Inspector with a good set of input parameters, and can handle different kind of "rendering” such castle like, cave like or desert/forest like, by tuning input parameters and applying proper graphical assets. Generation is seed based in order to reproduce the same dungeon if same input parameters are used.
 
 # Usage Examples
 Import the project in Unity3D and under the `Scenes/` folder the are three sample scenes demostrating different dungeon generation:
