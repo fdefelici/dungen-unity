@@ -1,4 +1,4 @@
-# Dungen for Unity
+# Dungeon Generator Plugin for Unity
 Plugin for Unity3d to procedurally generate dungeons with three methods:
 * let the plugin generate meshes;
 * provide to the plugin the assets to be used to dinamically compose the dungeon;
@@ -11,9 +11,9 @@ The algorithm implemented can be customized througth Unity Inspector with a good
 
 # Usage Examples
 Import the project in Unity3D and under the `Scenes/` folder the are three sample scenes demostrating different dungeon generation:
-* `CastleGen`: using assets castle-like
-* `CaveGen`: meshes created dinamically
-* `ForestGen`: mixed, using assets and mesh created dynamically
+* `CastleGen`: using castle-like assets ([example](./docs/castlegen-example.jpg))
+* `CaveGen`: meshes created dinamically ([example](./docs/cavegen-example.jpg))
+* `ForestGen`: mixed, using assets and mesh created dynamically ([example](./docs/forestgen-example.jpg))
 
 To check it out, open one of the scenes described above e click Play button. You can tweak the parameters in real time using the Inspector. To regenerate the dungeon (while in Play mode) just click on the Game view.
 
