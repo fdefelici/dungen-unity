@@ -1,0 +1,8 @@
+newmtl initialShadingGroup
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd DungeonDiffuse2.png
+bump DungeonNM2.png -bm 0.5
+Ni 1.00
